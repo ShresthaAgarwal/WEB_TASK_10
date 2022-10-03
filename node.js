@@ -13,7 +13,7 @@ var server = http.createServer(function (req, res) {
 		// Set response content	
 		res.write(
 		`<html><body style="text-align:center;">
-			<h1 style="color:green;">GeeksforGeeks Home Page</h1>
+			<h1 style="color:green;">Hello!!! This is Home Page</h1>
 			<p>A computer science portal</p>
 			</body></html>`);
 		res.end();//end the response
@@ -24,10 +24,7 @@ var server = http.createServer(function (req, res) {
 		res.writeHead(200, { 'Content-Type': 'text/html' });
 		res.write(`
 		<html><body style="text-align:center;">
-			<h1 style="color:green;">Welcome to GeeksforGeeks</h1>
-			<a href="https://www.geeksforgeeks.org/web-technology/">
-			Read Web Technology content
-			</a>
+			<h1 style="color:green;">WEB TASK 10</h1>
 		</body></html>`);
 		res.end();//end the response
 	
@@ -36,10 +33,7 @@ var server = http.createServer(function (req, res) {
 		
 		res.writeHead(200, { 'Content-Type': 'text/html' });
 		res.write(`<html><body style="text-align:center;">
-		<h1 style="color:green;">GeeksforGeeks</h1>
-		<a href="https://www.geeksforgeeks.org/data-structures/">
-			Read Data Structures Content
-		</a>
+		<h1 style="color:green;">HELLO!!!!</h1>
 		</body></html>`);
 		res.end(); //end the response
 	
@@ -48,10 +42,7 @@ var server = http.createServer(function (req, res) {
 		
 	res.writeHead(200, { 'Content-Type': 'text/html' });
 	res.write(`<html><body style="text-align:center;">
-		<h1 style="color:green;">GeeksforGeeks</h1>
-		<a href="https://www.geeksforgeeks.org/fundamentals-of-algorithms/">
-		Read Algorithm analysis and Design Content
-		</a>
+		<h1 style="color:green;">WEB TASK 10</h1>
 	</body></html>`);
 	res.end(); //end the response
 	
