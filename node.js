@@ -13,7 +13,7 @@ var server = http.createServer(function (req, res) {
 		// Set response content	
 		res.write(
 		`<html><body style="text-align:center;">
-			<h1 style="color:green;">Hello!!! This is Home Page</h1>
+			<h1 style="color:green;">This is home page.</h1>
 			<p>A computer science portal</p>
 			</body></html>`);
 		res.end();//end the response
@@ -50,5 +50,5 @@ var server = http.createServer(function (req, res) {
 	else
 		res.end('Invalid Request!'); //end the response
 
-// Server object listens on port 8081
-}).listen(3000, ()=>console.log('Server running on port 3000'));
+// Server object listens on port 5000
+}).listen(5000, ()=>console.log('Server running on port 5000'));
